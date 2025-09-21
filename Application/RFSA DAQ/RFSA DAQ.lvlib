@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Configure VST Msg.lvclass" Type="LVClass" URL="../RFSA DAQ Messages/Configure VST Msg/Configure VST Msg.lvclass"/>
+		<Item Name="Return Available Buffer Msg.lvclass" Type="LVClass" URL="../RFSA DAQ Messages/Return Available Buffer Msg/Return Available Buffer Msg.lvclass"/>
+		<Item Name="Start DAQ Msg.lvclass" Type="LVClass" URL="../RFSA DAQ Messages/Start DAQ Msg/Start DAQ Msg.lvclass"/>
+		<Item Name="Stop DAQ Msg.lvclass" Type="LVClass" URL="../RFSA DAQ Messages/Stop DAQ Msg/Stop DAQ Msg.lvclass"/>
+	</Item>
 	<Item Name="RFSA DAQ.lvclass" Type="LVClass" URL="../RFSA DAQ/RFSA DAQ.lvclass"/>
 </Library>

@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">620789760</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Set FFT Size Msg.lvclass" Type="LVClass" URL="../Signal Analysis Messages/Set FFT Size Msg/Set FFT Size Msg.lvclass"/>
+		<Item Name="Set Render Prio Msg.lvclass" Type="LVClass" URL="../Signal Analysis Messages/Set Render Prio Msg/Set Render Prio Msg.lvclass"/>
+	</Item>
 	<Item Name="Signal Analysis.lvclass" Type="LVClass" URL="../Signal Analysis/Signal Analysis.lvclass"/>
 </Library>

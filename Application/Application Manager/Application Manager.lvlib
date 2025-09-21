@@ -5,7 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Set FFT Size Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set FFT Size Msg/Set FFT Size Msg.lvclass"/>
 		<Item Name="Start TDMS Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Start TDMS Msg/Start TDMS Msg.lvclass"/>
+		<Item Name="Start VST Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Start VST Msg/Start VST Msg.lvclass"/>
 		<Item Name="Stop DAQ Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Stop DAQ Msg/Stop DAQ Msg.lvclass"/>
 		<Item Name="Update Processing Metrics Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Update Processing Metrics Msg/Update Processing Metrics Msg.lvclass"/>
 		<Item Name="Visualize FFT Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Visualize FFT Msg/Visualize FFT Msg.lvclass"/>
